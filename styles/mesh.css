@@ -1,0 +1,152 @@
+.logo {
+   position: relative;
+   width: 20%;
+   height: auto;
+}
+
+header {
+   display:flex;
+   align-items: center;
+
+}
+
+.presentación {
+   width: 100%;
+   height: 600px;
+}
+.info {
+   position: relative; 
+    width: 100%;
+    height: 350px;
+}
+
+.info {
+   display: flex;
+}
+
+.descripcion {
+   position: relative;
+   height: 350px;
+   width: 50%;
+
+   padding: 0 5%;
+}
+
+.datos {
+   position: relative;
+   height: 350px;
+   width: 50%;
+   background: url(/pics/evento.jpg);
+   background-position: center;
+}
+
+.form {
+   margin: 80px;
+}
+
+.registro {
+   text-align: center;
+}
+
+/*ANDREA*/
+body {
+   margin: 0;
+}
+
+.logo-h {
+   width: 30%;
+}
+
+.logo {
+   position: relative;
+   width: 70%;
+   height: auto;
+}
+
+.menu li {
+   font-size: 16px;
+   list-style: none;
+}
+
+ul {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.menu {
+   display: flex;
+   flex-wrap: wrap;
+   width: 80%;
+}
+
+nav {
+   width: 100%;
+}
+
+.menu li a {
+   text-decoration: none;
+   color: gray;
+   
+}
+
+.menu li a:hover {
+   background-color:#1A6F71;
+   border-radius: 25px;
+   padding: 5% 10%;
+   color: white;
+}
+
+.descripcion p {
+   text-align: center;
+   margin: 12% 0 6% 0;
+   font-size: 17px;
+   letter-spacing: 2px;
+}
+
+p.horario {
+   margin: 0;
+   color: #6f6a66;
+}
+
+p.registro {
+   font-size: 17px;
+}
+
+input#submit:hover {
+   background:#1A6F71;
+   color: white;
+}
+
+footer {
+   background-color: #1A6F71;
+   color: white;
+   display: flex;
+   justify-content: space-evenly;
+   padding: 2%;
+}
+
+/*banner*/
+
+
+
+.banner {
+   background-image: url(../pics/header.jpg);
+   background-position: center;
+   padding: 10%;
+   background-size: cover;
+}
+
+.banner h1 {
+   text-align: center;
+   font-size: 40px;
+   color: white;
+   background-color: rgb(26,111,113,0.8);
+   border-radius: 40px;
+   padding: 5% 7%;
+}
+
+.minibanner {
+   background: #1A6F71;
+   height: 5%;
+   padding: 2%;
+}
